@@ -40,7 +40,7 @@ func Execute(param string) error {
 	return c.Run()
 }
 
-// 获取文件所在路径(go build)
+// fetch file path(go build)
 func getExecFileAbPath() (string, error) {
 	execPath, err := os.Executable()
 	if err != nil {
@@ -53,7 +53,7 @@ func getExecFileAbPath() (string, error) {
 	return realPath, nil
 }
 
-// 获取文件所在路径(go run)
+// fetch file path(go run)
 func getDebugFileAbPath() string {
 	_, filename, _, _ := runtime.Caller(0)
 	return path.Dir(filename)
