@@ -8,13 +8,13 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"yolo/pkg/template/cmd"
-	"yolo/pkg/template/config"
-	"yolo/pkg/template/controller"
-	"yolo/pkg/template/model"
-	"yolo/pkg/template/router"
-	"yolo/pkg/template/service"
-	"yolo/pkg/template/util/cm"
+	"github.com/yolooks/yolo/pkg/template/cmd"
+	"github.com/yolooks/yolo/pkg/template/config"
+	"github.com/yolooks/yolo/pkg/template/controller"
+	"github.com/yolooks/yolo/pkg/template/model"
+	"github.com/yolooks/yolo/pkg/template/router"
+	"github.com/yolooks/yolo/pkg/template/service"
+	"github.com/yolooks/yolo/pkg/template/util/cm"
 )
 
 type Rander struct {

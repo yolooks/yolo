@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"yolo/pkg/service"
+	"github.com/yolooks/yolo/pkg/service"
 )
 
 func main() {
