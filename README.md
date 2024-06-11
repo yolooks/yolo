@@ -7,11 +7,12 @@ Yolook - Look Good, Feel Good!
 ```
 go install github.com/yolooks/yolo@latest
 ```
+说明: yolo默认安装在$GOPATH/bin目录下
 
 # usage
 
 ```
-yolo init -name <项目名> -port 端口号
+$GOBIN/yolo init -name <项目名> -port 端口号
 ```
 
 # run
