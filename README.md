@@ -1,5 +1,5 @@
 # yolo
-------------------------------
+---------
 Yolook - Look Good, Feel Good!
 
 ## install
