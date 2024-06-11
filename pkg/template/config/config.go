@@ -7,7 +7,7 @@ secret: ""
 
 mysql:
   master: "root:@tcp(127.0.0.1:3306)/mysql?charset=utf8"
-  slave1: "root:@tcp(127.0.0.1:3306)/mysql?charset=utf8"
+  slave: "root:@tcp(127.0.0.1:3306)/mysql?charset=utf8"
 `
 
 var CONFIG_TPL = `package config
