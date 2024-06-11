@@ -11,7 +11,7 @@ go install github.com/yolooks/yolo@latest
 # usage
 
 ```
-init -name <项目名> -port 端口号
+yolo init -name <项目名> -port 端口号
 ```
 
 # run
