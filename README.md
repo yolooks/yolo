@@ -7,7 +7,7 @@ Yolook - Look Good, Feel Good!
 ```
 go install github.com/yolooks/yolo@latest
 ```
-Explanation: By default, yolo is installed in the `$GOPATH/bin` directory.
+Explanation: By default, `yolo` is installed in the `$GOPATH/bin` directory.
 
 ## usage
 
