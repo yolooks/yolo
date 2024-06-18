@@ -1,6 +1,6 @@
 # yolo
 
-Yolook - Look Good, Feel Good!
+yolo - Golang project scaffolding
 
 ## install
 
