@@ -7,23 +7,23 @@ Yolook - Look Good, Feel Good!
 ```
 go install github.com/yolooks/yolo@latest
 ```
-说明: yolo默认安装在$GOPATH/bin目录下
+Explanation: By default, yolo is installed in the $GOPATH/bin directory.
 
 ## usage
 
 ```
-$GOBIN/yolo init -name <项目名> -port 端口号
+$GOBIN/yolo init -name <project_name> -port <project_port>
 ```
 
 ## run
 
 ```
-cd <项目名>/cmd
+cd <project_name>/cmd
 go run server.go
 ```
 
 ## test
 
 ```
-curl http://127.0.0.1:<端口号>/v1/liveness
+curl http://127.0.0.1:<project_port>/v1/liveness
 ```
